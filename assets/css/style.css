@@ -54,6 +54,22 @@ h6 {
 #main {
   position: relative;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+video {
+    max-width: 800px;
+    width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
